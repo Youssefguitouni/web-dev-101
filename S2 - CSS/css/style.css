@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/* Start Here */
+
+body {
+    background-color: #E52B5B;
+}
+
+a {
+    color: white;
+    font-family: "Roboto";
+    font-size: large;
+}
+
+a:hover{
+    color:aquamarine;
+    text-decoration: underline;
+}
+
+nav {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero, #services, #contact {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 24px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#services  {
+    flex-direction: row-reverse;
+}
+
+#contact {
+    margin-bottom: 24px;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+h1 {
+    font-size: 68px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+
+button {
+    width: 200px;
+    height: 35px;
+    background-color: #E52B5B;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+img {
+    border-radius: 20px;
+}
