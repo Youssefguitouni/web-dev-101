@@ -166,3 +166,32 @@ textarea {
     font-weight: 400;
     color: whitesmoke;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+    #hero {
+        flex-direction: column-reverse;
+    }
+    .desc {
+    width: 90%;
+    
+    }
+    #services {
+        flex-direction: column-reverse;
+    }
+
+  }
+
+  @media only screen and (max-width: 920px){
+    #contact {
+        flex-direction: column-reverse;
+    }
+    .desc {
+        width: 90%;
+        
+        }
+        img {
+            max-width: 400px;
+        }
+  }
